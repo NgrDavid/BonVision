@@ -9,12 +9,13 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/bonvision/BonVision/main/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://github.com/bonvision/BonVision/raw/main/Resources/BonVision-Logo.png</PackageIconUrl>
     <PackageOutputPath>..\bin\$(Configuration)</PackageOutputPath>
+    <PackageType>Dependency;BonsaiLibrary</PackageType>
     <PackageTags>Bonsai Rx BonVision Visual Environment Psychophysics Stimulus</PackageTags>
     <IncludeSymbols Condition="'$(Configuration)'=='Release'">true</IncludeSymbols>
     <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
     <TargetFramework>net462</TargetFramework>
     <Features>strict</Features>
-    <Version>0.11.0</Version>
+    <Version>0.12.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,12 +27,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bonsai.Numerics" version="0.7.0" />
-    <PackageReference Include="Bonsai.Scripting.Expressions" version="2.7.0" />
-    <PackageReference Include="Bonsai.Shaders" version="0.26.0" />
-    <PackageReference Include="Bonsai.Shaders.Design" Version="0.26.0" />
-    <PackageReference Include="Bonsai.Shaders.Rendering" Version="0.3.0" />
-    <PackageReference Include="Bonsai.Vision" version="2.7.0" />
+    <PackageReference Include="Bonsai.Numerics" version="0.9.0" />
+    <PackageReference Include="Bonsai.Scripting.Expressions" version="2.8.0" />
+    <PackageReference Include="Bonsai.Shaders" version="0.27.1" />
+    <PackageReference Include="Bonsai.Shaders.Design" Version="0.27.0" />
+    <PackageReference Include="Bonsai.Shaders.Rendering" Version="0.3.1" />
+    <PackageReference Include="Bonsai.Vision" version="2.8.1" />
     <PackageReference Include="Bonsai.VR" version="0.6.0" />
   </ItemGroup>
 
