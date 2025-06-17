@@ -1,21 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Title>BonVision</Title>
+    <Title>Bonsai - BonVision</Title>
     <Description>A visual stimulus generator and environmental mapping package for Bonsai.</Description>
-    <Authors>Aman Saleem</Authors>
-    <Copyright>Copyright © Aman Saleem 2020</Copyright>
-    <PackageProjectUrl>https://bonvision.github.io</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/bonvision/BonVision/main/LICENSE</PackageLicenseUrl>
-    <PackageIconUrl>https://github.com/bonvision/BonVision/raw/main/Resources/BonVision-Logo.png</PackageIconUrl>
-    <PackageOutputPath>..\bin\$(Configuration)</PackageOutputPath>
-    <PackageType>Dependency;BonsaiLibrary</PackageType>
-    <PackageTags>Bonsai Rx BonVision Visual Environment Psychophysics Stimulus</PackageTags>
-    <IncludeSymbols Condition="'$(Configuration)'=='Release'">true</IncludeSymbols>
-    <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
     <TargetFramework>net462</TargetFramework>
-    <Features>strict</Features>
-    <Version>0.12.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

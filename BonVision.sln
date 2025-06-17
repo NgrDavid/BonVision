@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonVision", "BonVision\BonVision.csproj", "{A94600D8-1B43-4F69-9176-E2DE45FFF352}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonVision", "src\BonVision\BonVision.csproj", "{A94600D8-1B43-4F69-9176-E2DE45FFF352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions.csproj", "{215F5FEB-518C-53C5-1A34-E23DAFBA18A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{DEE5DD87-39C1-BF34-B639-A387DCCF972B}"
+	ProjectSection(SolutionItems) = preProject
+		build\Common.csproj.props = build\Common.csproj.props
+		build\Common.csproj.targets = build\Common.csproj.targets
+		build\Common.Tests.csproj.props = build\Common.Tests.csproj.props
+		build\icon.png = build\icon.png
+		build\Package.props = build\Package.props
+		build\Project.csproj.props = build\Project.csproj.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,10 @@ Global
 		{A94600D8-1B43-4F69-9176-E2DE45FFF352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94600D8-1B43-4F69-9176-E2DE45FFF352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94600D8-1B43-4F69-9176-E2DE45FFF352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215F5FEB-518C-53C5-1A34-E23DAFBA18A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215F5FEB-518C-53C5-1A34-E23DAFBA18A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215F5FEB-518C-53C5-1A34-E23DAFBA18A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215F5FEB-518C-53C5-1A34-E23DAFBA18A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

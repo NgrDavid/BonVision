@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <PackageTags>Bonsai Rx BonVision Visual Environment Psychophysics Stimulus</PackageTags>
+    <PackageProjectUrl>https://bonvision.github.io</PackageProjectUrl>
+
+    <Authors>Aman Saleem</Authors>
+    <Copyright>Copyright © Aman Saleem 2019</Copyright>
+  </PropertyGroup>
+</Project>
